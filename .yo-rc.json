@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitHubOrganization": "bjdonny",
+    "baseName": "templateApplication",
+    "packageName": "cn.com.open.ms.template.application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "consul",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.4",
+    "packageFolder": "cn/com/open/ms/template/application",
+    "jwtSecretKey": "dccd601d0acd6cae9dd412ce713d0ec0088660ac",
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
